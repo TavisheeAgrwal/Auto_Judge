@@ -67,3 +67,21 @@ Confusion Matrix:
 MAE: 1.65
 RMSE: 2.01
 ```
+## Web Interface Description
+```text
+A Streamlit-based web UI is provided.
+Features:
+Four input text boxes:
+-Problem Title
+-Problem Description
+-Input Description
+-Output Description
+
+A Predict button
+
+Displays:
+Predicted difficulty class
+Predicted difficulty score
+No authentication or database is required.
+The application runs entirely locally.
+```
