@@ -42,7 +42,7 @@ Objective: Predict difficulty class (Easy / Medium / Hard)
 Model Used: XG Boost Classifier
 ```
 
-### Model 2: Regression-
+### Model 2: Regression
 ```text
 Objective: Predict numerical difficulty score
 Model Used: XG Boost Regressor
@@ -50,7 +50,10 @@ Model Used: XG Boost Regressor
 ## Evaluation Metrics
 ### Classification Performance
 Accuracy:
+```text
 56 %
+```
+
 Confusion Matrix:
 ```text
               precision    recall  f1-score   support
@@ -58,4 +61,9 @@ Confusion Matrix:
         easy       0.57      0.35      0.43       136
         hard       0.62      0.76      0.68       425
       medium       0.40      0.34      0.37       262
+```
+### Regression Performance
+```text
+MAE: 1.65
+RMSE: 2.01
 ```
