@@ -99,3 +99,9 @@ Install the required dependencies:
 ```bash
 pip install -r requirements.txt
 ```
+Once the dependencies are installed, you can proceed to train the models or run the web application as described in the sections below.
+To launch the AutoJudge web interface:
+```bash
+streamlit run app.py
+```
+The application will open in your default web browser.
