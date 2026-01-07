@@ -85,3 +85,17 @@ Predicted difficulty score
 No authentication or database is required.
 The application runs entirely locally.
 ```
+## Steps to Run the Project Locally
+### 1.Clone the Repository
+To clone this repository to your local machine, follow the steps below:
+```bash
+git clone https://github.com/TavisheeAgrwal/Auto_Judge.git
+```
+Navigate into the project directory:
+```bash
+cd Auto_Judge
+```
+Install the required dependencies:
+```bash
+pip install -r requirements.txt
+```
