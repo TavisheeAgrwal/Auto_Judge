@@ -21,18 +21,19 @@ Only textual fields were used as inputs to satisfy project constraints.
 ## Approach 
 
 1.Data Preprocessing:
+```text
 Checked for missing values.
 Plotted graphs and conducted detailed eda to find hidden trends.
+```
 
 2.Feature Extraction:
+```text
 Dropped unnecessary columns like sample_io andd url.
 Combined all the textual columns into one and later on discarded the individual columns.
 Constructed addditional features like text_len , math_density etc .
 Conducted vectorization usinf TF-IDF for the textual column.
 Combined the vectorised and additional features.
-
-
-This converted raw text into numerical feature vectors suitable for machine learning models.
+```
 
 ## Model
 
