@@ -99,9 +99,27 @@ Install the required dependencies:
 ```bash
 pip install -r requirements.txt
 ```
-Once the dependencies are installed, you can proceed to train the models or run the web application as described in the sections below.
-To launch the AutoJudge web interface:
+### 2.Launch the AutoJudge web interface
 ```bash
 streamlit run app.py
 ```
 The application will open in your default web browser.
+## Saved models
+```text
+The following trained models are included in the repository:
+tfidf_vectorizer.pkl
+difficulty_classifier.pkl
+score_regressor.pkl
+label_encoder.pkl
+These are loaded directly by the web interface for inference.
+```
+## Demo Video
+### Demo Video Link:
+(Paste your 2–3 minute demo video link here)
+The video demonstrates:
+```text
+Project overview
+Model pipeline
+Running the web UI locally
+Sample predictions
+```
