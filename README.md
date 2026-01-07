@@ -6,30 +6,14 @@ This project proposes AutoJudge, an automated system that predicts the difficult
 This project demonstrates the complete ML pipeline, including preprocessing, feature extraction, classification, regression, evaluation, and deployment via a web UI.
 
 ##Dataset Used
-The dataset consists of programming problems collected from various online competitive programming platforms. Each data sample represents a single problem and includes both textual descriptions and difficulty annotations.
-
-Dataset Fields
-
-title
-The name or title of the programming problem.
-
-description
-A detailed textual explanation of the problem statement, including background and task requirements.
-
-input_description
-A textual description of the expected input format and constraints.
-
-output_description
-A textual description of the expected output format.
-
-sample_io
-Example input and output illustrating how the problem should be solved.
-
-problem_class
-The categorical difficulty level assigned to the problem (Easy, Medium, or Hard).
-
-problem_score
-A numerical score representing the relative difficulty of the problem.
-
-url
-A link to the original problem source on the competitive programming platform.
+```text
+The dataset consists of programming problems collected from online competitive programming platforms. Each data sample contains the following fields:
+•	“title”                                   Problem name
+•	“description”                      Detailed textual description of the problem
+•	“input_description”          Textual Description of the input
+•	“output_description”       Textual Description of the output
+•	“sample_io”                        Sample for how input/output will be entered
+•	“problem_class”                Problem classification into easy/medium/hard
+•	“problem_score”               Score allotted based on difficulty
+•	“url”                                     Link to the problem
+```
