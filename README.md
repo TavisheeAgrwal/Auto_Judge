@@ -37,3 +37,22 @@ This converted raw text into numerical feature vectors suitable for machine lear
 ## Model
 
 ### Model 1 : Classification 
+Objective: Predict difficulty class (Easy / Medium / Hard)
+Model Used: XG Boost Classifier
+
+### Model 2: Regression-
+Objective: Predict numerical difficulty score
+Model Used: XG Boost Regressor
+
+## Evaluation Metrics
+### Classification Performance
+Accuracy:
+56 %
+Confusion Matrix:
+```text
+              precision    recall  f1-score   support
+
+        easy       0.57      0.35      0.43       136
+        hard       0.62      0.76      0.68       425
+      medium       0.40      0.34      0.37       262
+```
