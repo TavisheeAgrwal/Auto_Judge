@@ -117,7 +117,7 @@ These are loaded directly by the web interface for inference.
 ## Demo Video
 ### Demo Video Link:
 Click on the link below to watch the demo video for the project:
-(https://drive.google.com/file/d/12ktZYdbsRy8F-yLiin-zWsmxGVaxm1rj/view?usp=sharing)
+[Demo Video](https://drive.google.com/file/d/12ktZYdbsRy8F-yLiin-zWsmxGVaxm1rj/view?usp=sharing)
 The video demonstrates:
 ```text
 Project overview
