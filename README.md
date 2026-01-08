@@ -119,9 +119,8 @@ These are loaded directly by the web interface for inference.
 ```text
 Click on the link below to watch the demo video for the project:
 ```
-```text
+
 https://drive.google.com/file/d/12ktZYdbsRy8F-yLiin-zWsmxGVaxm1rj/view?usp=sharing
-```
 The video demonstrates:
 ```text
 Project overview
